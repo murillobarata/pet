@@ -1,0 +1,7 @@
+<div class="pets-grid">
+  <div *ngFor="let petzinho of pets">
+    <app-card *ngIf="petzinho.available"
+       [pet]="petzinho">
+    </app-card>
+  </div>
+</div>
